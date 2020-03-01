@@ -1,0 +1,20 @@
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #eee;
+    -webkit-text-decoration: solid underline;
+    text-decoration: solid underline;
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip: ink;
+}
+
+.link:active {
+    color: #ccc;
+    -webkit-text-decoration: solid underline;
+    text-decoration: solid underline;
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip: ink;
+}

@@ -1,0 +1,31 @@
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 20px;
+  color: #333;
+}
+
+.input {
+  border: none;
+  background: #e2e2e2;
+  color: #333;
+  margin: 10px;
+  padding: 6px 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  border-radius: 3px;
+  border: none;
+  background: #e2e2e2;
+  padding: 5px 10px;
+  cursor: pointer;
+}
