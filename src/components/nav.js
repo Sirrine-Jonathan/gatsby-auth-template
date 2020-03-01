@@ -2,9 +2,8 @@ import React from "react"
 import { useStaticQuery, Link, navigate, graphql } from "gatsby"
 import { getUser, isLoggedIn, logout } from "../services/auth"
 import { css } from "@emotion/core"
-import AppMenu from '../menus/AppMenu';
-import AuthMenu from '../menus/AuthMenu';
-import NavStyles from './nav.module.css';
+import AppMenu from './appmenu';
+import AuthMenu from './authmenu';
 
 const NavBar = ({ horizontalPadding, verticalPadding }) => {
   const content = { message: "", login: true }

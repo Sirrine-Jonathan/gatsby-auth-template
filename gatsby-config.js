@@ -14,10 +14,10 @@ module.exports = {
       resolve: `gatsby-source-mongodb`,
       options: { 
         server: { address: `<ADDRESS>`, port: 27017 },
-        auth: { user: `<USER>`, password: `<PASSWORD` },
+        auth: { user: `<USER>`, password: `<PASSWORD>` },
         dbName: `cloud`,
         collection: `documents`,
-        extraParams: { replicaSet: `<REPLICASET`, ssl: true, authSource: `admin`, retryWrites: true }
+        extraParams: { replicaSet: `<REPLICASET>`, ssl: true, authSource: `admin`, retryWrites: true }
       },
     },
   ],

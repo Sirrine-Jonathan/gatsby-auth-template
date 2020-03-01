@@ -1,6 +1,6 @@
 import React from 'react';
 import { navigate, Link } from 'gatsby';
-import NavStyles from '../components/nav.module.css';
+import NavStyles from './nav.module.css';
 import { logout } from "../services/auth"
 import { css } from "@emotion/core"
 
